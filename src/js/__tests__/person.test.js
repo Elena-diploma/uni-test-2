@@ -15,7 +15,6 @@ test('Test sort hero', () =>{
     ];
     const newArr = sortByHealth(array1);
     expect(newArr).toEqual(expectedArray);
-    expect(newArr).not.toBe(expectedArray);
 })
 
     test('не сработает тест с toBe', () =>{
